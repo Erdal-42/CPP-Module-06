@@ -37,8 +37,10 @@ handle numeric limits and special values.
 
 Implement a static class Serializer with the following methods:
 ```uintptr_t serialize(Data* ptr);```
+
 It takes a pointer and converts it to the unsigned integer type uintptr_t.
 ```Data* deserialize(uintptr_t raw);```
+
 It takes an unsigned integer parameter and converts it to a pointer to Data.
 Write a program to test that your class works as expected.
 You must create a non-empty (it means it has data members) Data structure.
@@ -56,11 +58,14 @@ classes A, B and C, that publicly inherit from Base.
 
 Implement the following functions:
 ```Base * generate(void);```
+
 It randomly instanciates A, B or C and returns the instance as a Base pointer. Feel free
 to use anything you like for the random choice implementation.
 ```void identify(Base* p);```
+
 It prints the actual type of the object pointed to by p: "A", "B" or "C".
 ```void identify(Base& p);```
+
 It prints the actual type of the object pointed to by p: "A", "B" or "C". Using a pointer
 inside this function is forbidden.
 Including the typeinfo header is forbidden.
