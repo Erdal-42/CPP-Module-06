@@ -1,4 +1,4 @@
-In this module I had to demonstrate casts in C++ OOP. I had to structure my files as header files and source files.  
+In this module I had to demonstrate casts in C++98 OOP. I had to structure my files as header files and source files.  
 
 **TASKS**
 
